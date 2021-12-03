@@ -9,4 +9,8 @@
 # For example, if N = 150, then 150 minutes have passed since midnight - i.e. now is 2:30
 
 # am. So, the program should print 2 30.
-
+n = int(input("enter minute passed"))
+hours = n//60
+hour_remns = n%60
+#minute = hour_rem//60
+print("the given minute takes",hours,":",hour_remns)
