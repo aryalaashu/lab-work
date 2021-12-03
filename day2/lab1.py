@@ -1,5 +1,4 @@
-#convert seconds to day, hours, minutes and seconds
-second = 86400
+#convert seconds to day, hours, minutes 
 day = second/86400
 hours = second/(60*60)
 minute = second/(60)
