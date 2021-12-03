@@ -1,4 +1,4 @@
 # sum of first ten even number integer
-listn = {2,4,6,8,10}
-sumA= sum(listn)
+a =range(0,11,2)
+sumA= sum(a)
 print(sumA)
